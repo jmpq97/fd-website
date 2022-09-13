@@ -6,7 +6,7 @@ export const homeObjOne = {
     topLine: 'ABOUT US',
     headline: 'Our mission is to empower developers with the resources they need to become leaders in tech.',
     description: "Frontera Devs is an award-winning organization dedicated to making computer science education equitable across the Rio Grande Vallev. We're a developer-first organization that organizes hands-on workshops to teach industry resources and helps guide early career devs through the process of defining their career since 2019.",
-    buttonLabel: 'Become a Memeber',
+    buttonLabel: 'Become a Member',
     imgStart: false,
     img: require('../../images/svg-1.svg').default,
     alt: 'Car',
