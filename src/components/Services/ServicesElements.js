@@ -1,5 +1,20 @@
 import styled from "styled-components";
 
+export const Gradient = styled.h2`
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 122%;
+/* or 43px */
+
+background: ${({ grad }) => (grad)};
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+`;
+
 export const ServicesContainer = styled.div`
 height: 800px;
 display: flex;
