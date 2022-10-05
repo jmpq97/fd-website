@@ -99,7 +99,13 @@ margin-bottom: 10px;
 `;
 
 export const ServicesP = styled.p`
-color: white;
-font-size: 1rem;
-text-align: left;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 122%;
+/* or 27px */
+
+
+color: #DBDEE8;
 `;
