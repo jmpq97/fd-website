@@ -22,15 +22,11 @@ padding: 0 10px;
 justify-content: center;
 `;
 
-export const InfoRow = styled.div`
-display: grid;
-grid-auto-columns: minmax(auto, 1fr);
-align-items: center;
-grid-template-areas: ${({ imgStart }) => imgStart ? `'col2 col1'` : `'col1 col2'`};
-
-@media screen and (max-width: 768px) {
-    grid-template-areas: ${({ imgStart }) => imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
-}
+export const FooterText = styled.span`
+display:flex;
+justify-content: flex-end;
+    font-weight: 200;
+    font-size: xx-large;
 `;
 
 export const Column1 = styled.div`
@@ -100,3 +96,16 @@ width: 100%;
 margin: 0 0 10px 0;
 padding-right: 0;
 `;
+
+export const SocialLinks = styled.div`
+display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: flex-start;
+`;
+
+export const SvgWrapper = styled.a`
+    margin: 0.5%
+`

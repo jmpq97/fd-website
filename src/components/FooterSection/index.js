@@ -1,5 +1,5 @@
 import React from 'react'
-import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, BgElement } from './FooterElements'
+import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, BgElement, SocialLinks, SvgWrapper, FooterText } from './FooterElements'
 import { ReactComponent as DiscordSVG } from '../../images/discord.svg'
 import { ReactComponent as TwitterSVG } from '../../images/twitter.svg'
 import { ReactComponent as FacebookSVG } from '../../images/facebook.svg'
@@ -12,19 +12,20 @@ const FooterSection = ({ lightBg, id, imgStart, topLine, lightText, headline, da
         <>
             <InfoContainer lightBg={lightBg} id={id}>
                 <InfoWrapper>
-                    <div class="frontera-links">
-                        <FooterImageSVG/>
-                        <span class="footer-text">frontera devs</span>
-                        <div class="social-links">
-                            <DiscordSVG />
-                            <TwitterSVG />
-                            <FacebookSVG/>
-                            <InstagramSVG/>
-                            <YoutubeSVG/>
-                        </div>
+                    <div>
+                        <FooterImageSVG />
+                        <FooterText>frontera devs</FooterText>
+                        <SocialLinks>
+                            <SvgWrapper href="https://discord.com/invite/fbf3HhN" target="_blank"><DiscordSVG /></SvgWrapper>
+                            <SvgWrapper href='https://twitter.com/fronteradevsrgv' target="_blank"><TwitterSVG /></SvgWrapper>
+                            <SvgWrapper href='https://www.facebook.com/fronteradevsutrgv' target="_blank"><FacebookSVG /></SvgWrapper>
+                            <SvgWrapper href='https://www.instagram.com/fronteradevs/' target="_blank"><InstagramSVG /></SvgWrapper>
+                            <SvgWrapper href='https://www.youtube.com/channel/UCXHBRJsa9orzXiwIPGvNGSw' target="_blank"><YoutubeSVG /></SvgWrapper>
+
+                        </SocialLinks>
                     </div>
                 </InfoWrapper>
-                
+
             </InfoContainer>
         </>
     )
