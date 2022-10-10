@@ -6,9 +6,9 @@ color: #fff;
 background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')}
 ;
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 795px) {
     padding: 100px 0;
-}
+} .*px
 `;
 
 export const InfoWrapper = styled.div`
@@ -151,7 +151,7 @@ align-items: center;
 background: #010606;
 height: 100vh;
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 795px) {
     height: auto;
     margin-top: 5rem;
 }
@@ -181,12 +181,13 @@ flex-direction: column;
 justify-content: flex-start;
 align-items: center;
 border-radius: 10px;
+margin: 1rem;
 /* max-height: 340px; */
 padding-bottom: 30px;
 box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 transition: all 0.2s ease-in-out;
 width: 40vw;
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 795px) {
     width: auto;
     margin-top: 5rem;
 }
@@ -210,6 +211,8 @@ margin-bottom: 64px;
 
 @media screen and (max-width: 480px) {
     font-size: 2rem;
+    text-align: center;
+    max-width: 80vw;
 }
 `;
 
@@ -217,6 +220,10 @@ export const FAQH2 = styled.h2`
 color: white;
 font-size: 1.5rem;
 margin-bottom: 10px;
+@media screen and (max-width: 480px) {
+    text-align: center;
+    max-width: 80vw;
+}
 `;
 
 export const FAQP = styled.p`

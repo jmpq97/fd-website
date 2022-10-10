@@ -5,12 +5,10 @@ color: #fff;
 background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')}
 ;
 height: 100vh;
-@media screen and (max-width: 700px) {
-{
-    height: auto;
-}
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 795px) {
     padding: 100px 0;
+    height: auto;
 }
 `;
 
@@ -32,7 +30,7 @@ grid-auto-columns: minmax(auto, 1fr);
 align-items: center;
 grid-template-areas: ${({ imgStart }) => imgStart ? `'col2 col1'` : `'col1 col2'`};
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 795px) {
     grid-template-areas: ${({ imgStart }) => imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
 }
 `;
