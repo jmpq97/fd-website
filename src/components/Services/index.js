@@ -8,7 +8,7 @@ const Services = () => {
         <ServicesContainer id="services">
             <ServicesH1>BY JOINING FRONTERA DEVS, YOU CAN:</ServicesH1>
             <ServicesWrapper>
-                <ServicesCard>
+                <ServicesCard >
                     <ServicesH2>Develop 
                         <Gradient grad="linear-gradient(90.13deg, #8BC7FF 6.44%, #9D6FFF 63.43%, #FF48D7 126.11%);">your skillset</Gradient>
                     </ServicesH2>

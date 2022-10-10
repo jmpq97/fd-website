@@ -149,11 +149,13 @@ flex-wrap: nowrap;
 justify-content: center;
 align-items: center;
 background: #010606;
-/*
-@media screen and (max-width: 768px) {
-    height: 1100px;
-}
+height: 100vh;
 
+@media screen and (max-width: 700px) {
+    height: auto;
+    margin-top: 5rem;
+}
+/*
 @media screen and (max-width: 480px) {
     heigth: 1300px;
 }
@@ -184,6 +186,10 @@ padding-bottom: 30px;
 box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 transition: all 0.2s ease-in-out;
 width: 40vw;
+@media screen and (max-width: 700px) {
+    width: auto;
+    margin-top: 5rem;
+}
 &:hover {
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;

@@ -4,9 +4,14 @@
   padding: 0;
   font-family: 'DM Sans',
   sans-serif;
+  background: #010606;
 }
 
 .SVG {
   width: 80%;
   height: auto;
+}
+
+body {
+  overflow-x: hidden;
 }

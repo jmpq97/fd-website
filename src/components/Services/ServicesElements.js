@@ -23,13 +23,13 @@ justify-content: center;
 align-items: center;
 background: #010606;
 
-@media screen and (max-width: 768px) {
-    height: 1100px;
-}
+// @media screen and (max-width: 768px) {
+//     height: 1100px;
+// }
 
-@media screen and (max-width: 480px) {
-    heigth: 1300px;
-}
+// @media screen and (max-width: 480px) {
+//     heigth: 1300px;
+// }
 `;
 
 export const ServicesWrapper = styled.div`
@@ -40,7 +40,6 @@ grid-template-columns: 1fr 1fr 1fr;
 align-items: center;
 grid-gap: 16px;
 padding: 0 50px;
-
 @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
 }
@@ -68,7 +67,7 @@ max-height: min-content;
 padding: 30px;
 box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 transition: all 0.2s ease-in-out;
-max-width: 50vw;
+max-width: auto;
 &:hover {
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
@@ -89,6 +88,7 @@ margin-bottom: 64px;
 
 @media screen and (max-width: 480px) {
     font-size: 2rem;
+    text-align: center;
 }
 `;
 
