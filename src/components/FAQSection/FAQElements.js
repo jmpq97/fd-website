@@ -14,7 +14,7 @@ background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')}
 export const InfoWrapper = styled.div`
 display: grid;
 z-index: 1;
-height: 860px;
+/*height: 860px; */
 width: 50%;
 max-width: 1100px;
 margin-right: auto;
@@ -26,21 +26,39 @@ justify-content: center;
 export const InfoRow = styled.div`
 display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    align-items: center
+    align-items: center;
+
+    @media screen and (max-width: 700px) {
+        flex-direction: column;
+    }
 `;
 
 export const Column1 = styled.div`
 margin-bottom: 15px;
-padding: 0 15px;
-grid-area: col1;
+    /* padding: 0 15px; */
+    /* grid-area: col1; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    max-width: 45%;
 `;
 export const Column2 = styled.div`
 margin-bottom: 15px;
-padding: 0 15px;
-grid-area: col2;
+    /* padding: 0 15px; */
+    /* grid-area: col1; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 45%;
 `;
 
 export const BgElement = styled.img`
@@ -122,3 +140,87 @@ height: auto;
 margin-bottom: 62px;
 width: 500px;
 `
+
+export const FAQContainer = styled.div`
+/*height: 800px;*/
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+background: #010606;
+/*
+@media screen and (max-width: 768px) {
+    height: 1100px;
+}
+
+@media screen and (max-width: 480px) {
+    heigth: 1300px;
+}
+*/
+`;
+
+export const FAQWrapper = styled.div`
+max-width: 100vp;
+margin: 0 auto;
+display: flex;
+grid-template-columns: 1fr 1fr 1fr;
+align-items: center;
+grid-gap: 16px;
+padding: 0 50px;
+
+
+`;
+
+export const FAQCard = styled.div`
+background: black;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+border-radius: 10px;
+/* max-height: 340px; */
+padding-bottom: 30px;
+box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+transition: all 0.2s ease-in-out;
+width: 40vw;
+&:hover {
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+`;
+
+export const FAQIcon = styled.img`
+heigth: 160px;
+width: 160px;
+margin-bottom: 10px;
+`;
+
+export const FAQH1 = styled.h1`
+font-size: 1rem;
+color: #555555;
+margin-bottom: 64px;
+
+@media screen and (max-width: 480px) {
+    font-size: 2rem;
+}
+`;
+
+export const FAQH2 = styled.h2`
+color: white;
+font-size: 1.5rem;
+margin-bottom: 10px;
+`;
+
+export const FAQP = styled.p`
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 122%;
+/* or 27px */
+
+
+color: #DBDEE8;
+`;

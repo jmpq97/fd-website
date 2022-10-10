@@ -11,15 +11,22 @@ background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')}
 `;
 
 export const InfoWrapper = styled.div`
-display: grid;
-z-index: 1;
-height: 860px;
-width: 50%;
-max-width: 1100px;
-margin-right: auto;
-margin-left: auto;
-padding: 0 10px;
-justify-content: center;
+display: flex;
+    z-index: 1;
+    height: 100px;
+    width: 70%;
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 10px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: flex-end;
 `;
 
 export const FooterText = styled.span`

@@ -13,7 +13,7 @@ background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')}
 export const InfoWrapper = styled.div`
 display: grid;
 z-index: 1;
-height: 860px;
+/*height: 860px;*/
 width: 50%;
 max-width: 1100px;
 margin-right: auto;

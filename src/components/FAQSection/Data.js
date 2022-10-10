@@ -39,5 +39,4 @@ export const FAQObject = {
     id: 'signup',
     lightBg: false,
     lightText: true,
-    imgStart: false,
 }
