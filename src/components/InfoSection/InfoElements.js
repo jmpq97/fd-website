@@ -16,12 +16,16 @@ export const InfoWrapper = styled.div`
 display: grid;
 z-index: 1;
 /*height: 860px;*/
-width: 50%;
-max-width: 1100px;
+max-width: 80%;
 margin-right: auto;
 margin-left: auto;
 padding: 0 10px;
 justify-content: center;
+overflow: hidden;
+@media screen and (max-width: 601px) {
+    width: auto;
+    
+}
 `;
 
 export const InfoRow = styled.div`

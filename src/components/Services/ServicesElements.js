@@ -22,10 +22,10 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 background: #010606;
-
-// @media screen and (max-width: 768px) {
-//     height: 1100px;
-// }
+height: 100vh;
+@media screen and (max-width: 795px) {
+    height: auto;
+}
 
 // @media screen and (max-width: 480px) {
 //     heigth: 1300px;

@@ -12,7 +12,7 @@ const FooterSection = ({ lightBg, id, imgStart, topLine, lightText, headline, da
             <InfoContainer lightBg={lightBg} id={id}>
                 <InfoWrapper>
                         <FooterImageSVG className='SVG' />
-                    <div>
+                    <div class="footer-wrapper">
                         <FooterText>frontera devs</FooterText>
                         <SocialLinks>
                             <SvgWrapper href="https://discord.com/invite/fbf3HhN" target="_blank"><DiscordSVG  /></SvgWrapper>

@@ -114,5 +114,5 @@ display: flex;
 `;
 
 export const SvgWrapper = styled.a`
-    margin: 0.5%
+    margin: 2%
 `
