@@ -111,6 +111,7 @@ display: flex;
     align-content: center;
     justify-content: flex-end;
     align-items: flex-start;
+    justify-content: space-between;
 `;
 
 export const SvgWrapper = styled.a`

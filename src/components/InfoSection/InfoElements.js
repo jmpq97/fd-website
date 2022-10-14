@@ -4,7 +4,10 @@ export const InfoContainer = styled.div`
 color: #fff;
 background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')}
 ;
-height: 100vh;
+height: auto;
+
+max-width: 100vw;
+overflow-x: hidden;
 
 @media screen and (max-width: 795px) {
     padding: 100px 0;
@@ -21,7 +24,6 @@ margin-right: auto;
 margin-left: auto;
 padding: 0 10px;
 justify-content: center;
-overflow: hidden;
 @media screen and (max-width: 601px) {
     width: auto;
     
