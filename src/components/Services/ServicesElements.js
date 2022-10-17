@@ -22,7 +22,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 background: #010606;
-
+min-height: 100vh;
 @media screen and (max-width: 795px) {
     height: auto;
 }

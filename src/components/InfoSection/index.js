@@ -20,7 +20,7 @@ const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headline, dark
                             <TopLine>{topLine}</TopLine>
                             <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
-                                    <Button to="home"
+                                    <Button href="https://linktr.ee/fronteradevsutrgv"
                                         smooth={true}
                                         duration={500}
                                         spy={true}
