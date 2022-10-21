@@ -28,7 +28,7 @@ const Home = () => {
       {/* FAQ */}
       <FAQSection {...FAQObject}/>
       {/* Footer */}
-      <FooterSection />
+      <FooterSection id="footer-wrapper"/>
     </>
   )
 }

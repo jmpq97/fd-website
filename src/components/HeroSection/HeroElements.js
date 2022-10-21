@@ -74,11 +74,19 @@ export const Logo = styled.img`
 width: 40%;
 margin: 0 0 10px 0;
 padding-right: 0;
+
+@media screen and (max-width: 780px) {
+    width: 80%;
+}
 `
 export const BgElement = styled.img`
 width: 50%;
 margin: 0 0 10px 0;
 padding-right: 0;
+
+@media screen and (max-width: 780px) {
+    width: 90%;
+}
 `
 
 export const HeroP = styled.p`
