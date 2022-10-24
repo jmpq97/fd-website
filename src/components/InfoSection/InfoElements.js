@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const InfoContainer = styled.div`
 color: #fff;
-background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')}
+background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : 'inherit')}
 ;
 height: auto;
 
@@ -10,7 +10,7 @@ max-width: 100vw;
 overflow-x: hidden;
 
 @media screen and (max-width: 795px) {
-    padding: 100px 0;
+   // padding: 100px 0;
     height: auto;
 }
 `;
@@ -53,7 +53,7 @@ grid-area: col2;
 `;
 
 export const BgElement = styled.img`
-width: 100%;
+height: 30vh;
 margin-left: 60%;
 `
 

@@ -28,8 +28,8 @@ display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: center;
-    align-items: center;
+    justify-content: center;    
+    align-items: stretch;
 
     @media screen and (max-width: 700px) {
         flex-direction: column;
@@ -90,9 +90,10 @@ line-height: 100%;
 export const BottomLine = styled.li`
 font-family: 'DM Sans';
 font-style: normal;
-font-weight: 400;
+font-weight: regular ;
 font-size: 20px;
 line-height: 100%;
+list-style: none;
 /* or 20px */
 
 color: #F9F9F9;
@@ -148,12 +149,14 @@ flex-direction: column;
 flex-wrap: nowrap;
 justify-content: center;
 align-items: center;
-background: #010606;
-height: 100vh;
+// background: yellow;
+margin-top: 45vh;
+margin-bottom: 25vh;
+//min-height: 100vh;
 
 @media screen and (max-width: 795px) {
     height: auto;
-    margin-top: 5rem;
+    margin-bottom: auto;
 }
 /*
 @media screen and (max-width: 480px) {
@@ -175,13 +178,14 @@ padding: 0 50px;
 `;
 
 export const FAQCard = styled.div`
-background: black;
+// background: black;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
-align-items: center;
+align-items: flex-start;
 border-radius: 10px;
 margin: 1rem;
+
 /* max-height: 340px; */
 padding-bottom: 30px;
 box-shadow: 0 1px 3px rgba(0,0,0,0.2);
@@ -189,7 +193,7 @@ transition: all 0.2s ease-in-out;
 width: 40vw;
 @media screen and (max-width: 795px) {
     width: auto;
-    margin-top: 5rem;
+    margin-bottom: 10rem;
 }
 &:hover {
     transform: scale(1.02);
@@ -229,7 +233,7 @@ margin-bottom: 10px;
 export const FAQP = styled.p`
 font-family: 'DM Sans';
 font-style: normal;
-font-weight: 400;
+font-weight: regular ;
 font-size: 22px;
 line-height: 122%;
 /* or 27px */

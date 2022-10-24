@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const InfoContainer = styled.div`
 color: #fff;
-background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')}
+${({ lightBg }) => (lightBg ? 'background:#f9f9f9;' : 'background:inherit;')}
 ;
 
 @media screen and (max-width: 768px) {
@@ -13,9 +13,7 @@ background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')}
 export const InfoWrapper = styled.div`
 display: flex;
     z-index: 1;
-    height: 100px;
-    width: 70%;
-    max-width: 1100px;
+    max-width: 80%;
     margin-right: auto;
     margin-left: auto;
     padding: 0 10px;
@@ -36,84 +34,38 @@ justify-content: flex-end;
     font-size: xx-large;
 `;
 
-export const Column1 = styled.div`
-margin-bottom: 15px;
-padding: 0 15px;
-grid-area: col1;
-`;
-export const Column2 = styled.div`
-margin-bottom: 15px;
-padding: 0 15px;
-grid-area: col2;
-`;
-
-export const BgElement = styled.img`
-width: 100%;
-margin-left: 60%;
-`
-
-export const TextWrapper = styled.div`
-max-width: 540px;
-padding-top: 0;
-padding-bottom: 60px;
-`;
-
-export const TopLine = styled.p`
-color: #01bf71;
-font-size: 16px;
-line-height: 16px;
-font-weight: 700;
-letter-spacing: 1.4px;
-text-transform: uppercase;
-margin-bottom: 16px;
-`;
-
-export const Heading = styled.h1`
-margin-bottom: 24px;
-font-size: 38px;
-line-height: 1.1;
-font-weight: 600;
-color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
-
-@media screen and (max-width: 480px) {
-    font-size: 32px;
-}
-`;
-
-export const Subtitle = styled.p`
-max-width: 440px;
-margin-bottom: 35px;
-font-size: 18px;
-line-height: 24px;
-color: ${({ darkText }) => (darkText ? '#010606' : "#fff")};
-`;
-
-export const BtnWrap = styled.div`
-display: flex;
-justify-content: flex-start;
-`;
-
-export const ImgWrap = styled.div`
-max-width: 555px;
-height: 100%;
-`;
-
-export const Img = styled.img`
-width: 100%;
-margin: 0 0 10px 0;
-padding-right: 0;
-`;
-
 export const SocialLinks = styled.div`
 display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-content: center;
     justify-content: flex-end;
     align-items: flex-start;
     justify-content: space-between;
 `;
 
+export const FooterWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: stretch;
+`;
+
 export const SvgWrapper = styled.a`
     margin: 2%
 `
+
+export const FooterImage = styled.img`
+max-width: 20%;
+height: auto;
+
+@media screen and (max-width: 795px) {
+    max-width: 35%;
+}
+
+@media screen and (max-width: 550px) {
+    max-width: 45%;
+}
+`;

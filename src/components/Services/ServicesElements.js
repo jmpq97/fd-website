@@ -21,8 +21,8 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background: #010606;
-min-height: 100vh;
+// background: #010606;
+// min-height: 100vh;
 @media screen and (max-width: 795px) {
     height: auto;
 }
@@ -61,11 +61,11 @@ padding-right: 0;
 `
 
 export const ServicesCard = styled.div`
-background: black;
+// background: yellow;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
-align-items: center;
+align-items: flex-start;
 border-radius: 10px;
 max-height: min-content;
 padding: 30px;
@@ -112,7 +112,7 @@ margin-bottom: 10px;
 export const ServicesP = styled.p`
 font-family: 'DM Sans';
 font-style: normal;
-font-weight: 400;
+font-weight: regular;
 font-size: 22px;
 line-height: 122%;
 /* or 27px */
