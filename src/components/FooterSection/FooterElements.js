@@ -37,7 +37,7 @@ justify-content: flex-end;
 export const SocialLinks = styled.div`
 display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-content: center;
     justify-content: flex-end;
     align-items: flex-start;
@@ -60,4 +60,12 @@ export const SvgWrapper = styled.a`
 export const FooterImage = styled.img`
 max-width: 20%;
 height: auto;
+
+@media screen and (max-width: 795px) {
+    max-width: 35%;
+}
+
+@media screen and (max-width: 550px) {
+    max-width: 45%;
+}
 `;
