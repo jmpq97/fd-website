@@ -21,7 +21,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background: #010606;
+// background: #010606;
 min-height: 100vh;
 @media screen and (max-width: 795px) {
     height: auto;
@@ -61,11 +61,11 @@ padding-right: 0;
 `
 
 export const ServicesCard = styled.div`
-background: black;
+// background: yellow;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
-align-items: center;
+align-items: flex-start;
 border-radius: 10px;
 max-height: min-content;
 padding: 30px;

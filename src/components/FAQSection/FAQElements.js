@@ -148,7 +148,7 @@ flex-direction: column;
 flex-wrap: nowrap;
 justify-content: center;
 align-items: center;
-background: #010606;
+// background: yellow;
 height: 100vh;
 
 @media screen and (max-width: 795px) {
@@ -175,7 +175,7 @@ padding: 0 50px;
 `;
 
 export const FAQCard = styled.div`
-background: black;
+// background: black;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
