@@ -17,9 +17,55 @@
   .SVG {
     width: 100%;
   }
+  .faq-0 {
+    max-width: 35%;
+  }
+  
+  .faq-1 {
+    max-width: 35%;
+  }
+  
+  .faq-2 {
+    max-width: 35%;
+  }
+  
+  .faq-3 {
+    max-width: 35%;
+  }
+  
+  .faq-4 {
+    max-width: 35%;
+  }
+  
+  .faq-5 {
+    max-width: 35%;
+     margin-bottom: auto !important;
+    }
+  
+}
+
+.faq-0 {
+  max-width: 40%;
+}
+
+.faq-1 {
+  max-width: 40%;
+}
+
+.faq-2 {
+  max-width: 40%;
+}
+
+.faq-3 {
+  max-width: 40%;
+}
+
+.faq-4 {
+  max-width: 40%;
 }
 
 .faq-5 {
+  max-width: 40%;
    margin-bottom: auto !important;
   }
 

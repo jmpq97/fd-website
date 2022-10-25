@@ -33,7 +33,7 @@ justify-content: center;
 export const InfoRow = styled.div`
 display: grid;
 grid-auto-columns: minmax(auto, 1fr);
-align-items: center;
+align-items: end;
 grid-template-areas: ${({ imgStart }) => imgStart ? `'col2 col1'` : `'col1 col2'`};
 
 @media screen and (max-width: 795px) {
@@ -64,7 +64,7 @@ padding-bottom: 60px;
 `;
 
 export const TopLine = styled.p`
-color: #01bf71;
+color: #555555;
 font-size: 16px;
 line-height: 16px;
 font-weight: 700;
@@ -74,7 +74,7 @@ margin-bottom: 16px;
 `;
 
 export const Heading = styled.h1`
-margin-bottom: 24px;
+
 font-size: 38px;
 line-height: 1.1;
 font-weight: 600;

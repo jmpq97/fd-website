@@ -1,18 +1,20 @@
 import React from 'react'
 import { Button } from '../ButtonElements'
 import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, BgElement } from './InfoElements'
+import { Gradient } from '../Services/ServicesElements'
 
 
-const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2 }) => {
+const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headline1, headline2, headline3, darkText, description, buttonLabel, img, alt, primary, dark, dark2 }) => {
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>
                 <InfoWrapper>
                     <InfoRow imgStart={imgStart}>
                         <Column1>
-                        
                             <TextWrapper>
-                                <Heading lightText={lightText}>{headline}</Heading>
+                                <Heading lightText={lightText}>{headline1}</Heading>
+                                <Gradient grad="linear-gradient(92.34deg, #5FDCBE -0.67%, #6FA8FF 86.59%);">{headline2}</Gradient>
+                                <Heading lightText={lightText}>{headline3}</Heading>
                             </TextWrapper>
                         </Column1>
                         <Column2>
