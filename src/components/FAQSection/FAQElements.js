@@ -150,8 +150,8 @@ flex-wrap: nowrap;
 justify-content: center;
 align-items: center;
 // background: yellow;
-margin-top: 45vh;
-margin-bottom: 25vh;
+margin-top: 20vh;
+margin-bottom: 20vh;
 //min-height: 100vh;
 
 @media screen and (max-width: 795px) {
