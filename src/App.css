@@ -10,7 +10,18 @@
 .SVG {
   width: 80%;
   height: auto;
+  align-self: center;
+
 }
+@media only screen and (max-width: 550px) {
+  .SVG {
+    width: 100%;
+  }
+}
+
+.faq-5 {
+   margin-bottom: auto !important;
+  }
 
 body {
   overflow-x: hidden;

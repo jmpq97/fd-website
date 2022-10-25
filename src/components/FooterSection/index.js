@@ -23,6 +23,7 @@ const FooterSection = ({ lightBg, id}) => {
 
                         </SocialLinks>
                     </FooterWrapper>
+                    <FooterText>Made with ♡ by the Frontera Devs team</FooterText>
                 </InfoWrapper>
 
             </InfoContainer>
