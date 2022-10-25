@@ -85,6 +85,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 25px;
 line-height: 100%;
+margin-bottom: 1rem;
 `;
 
 export const BottomLine = styled.li`
