@@ -20,7 +20,7 @@ text-decoration: none;
 
 &:hover {
     transition: all 0.2s ease-in-out;
-    background: ${({ primary }) => (primary ? '#24d62d' :'inherit')};
+    background: ${({ primary }) => (primary ? '#48D597' :'inherit')};
     color: #010606;
 }
 

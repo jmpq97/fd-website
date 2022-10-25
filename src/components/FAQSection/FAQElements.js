@@ -28,7 +28,7 @@ display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: center;    
+    justify-content: space-around;    
     align-items: stretch;
 
     @media screen and (max-width: 700px) {
@@ -194,7 +194,7 @@ transition: all 0.2s ease-in-out;
 width: 40vw;
 @media screen and (max-width: 795px) {
     width: auto;
-    margin-bottom: 10rem;
+    margin-bottom: 1rem;
 }
 &:hover {
     transform: scale(1.02);
@@ -223,9 +223,10 @@ margin-bottom: 64px;
 
 export const FAQH2 = styled.h2`
 color: white;
-font-size: 1.5rem;
-margin-bottom: 10px;
+font-size: 2.5rem;
+margin-bottom: 42px;
 @media screen and (max-width: 480px) {
+    font-size: 2.3rem;
     text-align: center;
     max-width: 80vw;
 }
