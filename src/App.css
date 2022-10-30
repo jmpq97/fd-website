@@ -17,7 +17,7 @@
   .SVG {
     width: 100%;
   }
-  .faq-0 {
+  /* .faq-0 {
     max-width: 35%;
   }
   
@@ -37,18 +37,17 @@
     max-width: 35%;
   }
   
+  */
   .faq-5 {
-    max-width: 35%;
-     margin-bottom: auto !important;
+    margin-bottom: auto !important;
     }
-  
 }
 
+/*
 .faq-0 {
   max-width: 40%;
 }
-
-.faq-1 {
+ .faq-1 {
   max-width: 40%;
 }
 
@@ -64,10 +63,12 @@
   max-width: 40%;
 }
 
+} 
+*/
 .faq-5 {
-  max-width: 40%;
+  /* max-width: 40%; */
    margin-bottom: auto !important;
-  }
+}
 
 body {
   overflow-x: hidden;
