@@ -13,7 +13,7 @@ const FooterSection = ({ lightBg, id}) => {
                 <InfoWrapper>
                         <FooterImageSVG className='SVG' />
                     <FooterWrapper>
-                        <FooterImage src={require('../../images/logo-white.png')} />
+                        <FooterImage alt="The logo of the Frontera Devs UTRGV organization" src={require('../../images/logo-white.png')} />
                         <SocialLinks>
                             <SvgWrapper href="https://discord.com/invite/fbf3HhN" target="_blank"><DiscordSVG  /></SvgWrapper>
                             <SvgWrapper href='https://twitter.com/fronteradevsrgv' target="_blank"><TwitterSVG  /></SvgWrapper>

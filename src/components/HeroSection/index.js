@@ -14,12 +14,12 @@ const HeroSection = () => {
         <HeroBg>
         </HeroBg>
         <HeroContent>
-            <Logo src={require('../../images/logo-white.png')}/>
+            <Logo alt="The logo of the Frontera Devs UTRGV organization" src={require('../../images/logo-white.png')}/>
             <HeroH1></HeroH1>
             <HeroP>
             </HeroP>
             <HeroBtnWrapper>
-            <BgElement src={require('../../images/graphic-grid.png')}/>
+            <BgElement alt="Stlyish element on the Frontera Devs website"src={require('../../images/graphic-grid.png')}/>
             </HeroBtnWrapper>
         </HeroContent>
     </HeroContainer>
