@@ -187,15 +187,16 @@ align-items: flex-start;
 border-radius: 10px;
 margin: 1rem;
 
-/* max-height: 340px; */
 padding-bottom: 30px;
 box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 transition: all 0.2s ease-in-out;
 width: 40vw;
-@media screen and (max-width: 795px) {
-    width: auto;
+
+@media screen and (max-width: 701px) {
+    width: 100%;
     margin-bottom: 1rem;
 }
+
 &:hover {
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
